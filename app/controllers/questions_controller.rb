@@ -12,8 +12,9 @@ class QuestionsController < ApplicationController
 
   def update
     @question = Question.find(params[:id])
+    # binding.pry
     @question.update(question_params)
-    render nothing: true
+    render json: @question.to_json
   end
 
   private
