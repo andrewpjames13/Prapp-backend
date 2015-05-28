@@ -2,7 +2,7 @@ class QuestionsController < ApplicationController
 
   def index
     @questions = Question.all
-    render json: @questions.to_json
+    render json: { questions: @questions }.to_json
   end
 
   def show
