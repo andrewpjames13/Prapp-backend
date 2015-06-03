@@ -30,12 +30,12 @@ Question.create( question:"What is Polymorphism and why do we use it?", answer:"
 
 #Ruby
 Question.create( question:"Ruby - What is a Ruby object?", answer:"An object is an instance of a class and has state and behavior.", correct: false)
-Question.create( question:"Ruby - What are class variables", answer:"Created with the prefix @@ and are shared by all objects in a class.", correct: false)
+Question.create( question:"Ruby - What are class variables?", answer:"Created with the prefix @@ and are shared by all objects in a class.", correct: false)
 Question.create( question:"Ruby - What are instance variables?", answer:"Created with the prefix @ and belong to a single object within a class.", correct: false)
 
 #General Programming Questions
-Question.create( question:"What is state", answer:"Data that is held in an object. For example, a student has a first name, last name, age, etc.", correct: false)
-Question.create( question:"What is behavior", answer:"What an object does. For example, a student attends a course 'OOP for beginners'.", correct: false)
+Question.create( question:"What is state?", answer:"Data that is held in an object. For example, a student has a first name, last name, age, etc.", correct: false)
+Question.create( question:"What is behavior?", answer:"What an object does. For example, a student attends a course 'OOP for beginners'.", correct: false)
 
 Question.create( question:"What's MVC?", answer:"Model, View, Controller is used as an architectural pattern for implementing user interfaces.", correct: false)
 Question.create( question:"What is a Model?", answer:"A model stores data that is retrieved by the controller and displayed in the view.", correct: false)
