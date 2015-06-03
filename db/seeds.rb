@@ -24,12 +24,12 @@ Question.create( question:"What are RESTful API's?", answer:"RESTful API's retri
 Question.create( question:"What is OOP?", answer:"Object oriented programming is a language model organized around objects rather than “actions” and data rather than logic.", correct: false)
 Question.create( question:"What are the four pillars of OOP?", answer:"Abstraction, Encapsulation, Inheritance and Polymorphism.", correct: false)
 Question.create( question:"What is Abstraction and why use it?", answer:"Process of exposing essential features of a entity by hiding other irrelevant details. This reduces complexity and increases efficiency.", correct: false)
-Question.create( question:"What is Encapsulation and why use it?", answer:"The packing of data and functions into a single component. This helps with not overloading the user with data and functions.", correct: false)
+Question.create( question:"What is Encapsulation and why use it?", answer:"The packing of data and functions into a single component. This helps to not overloading the user with data and functions.", correct: false)
 Question.create( question:"What is Inheritance and why use it?", answer:"A parent/child relation between two classes. A child class inherits all the features of its parent class. Methods from the parent can be overridden in the child.", correct: false)
 Question.create( question:"What is Polymorphism and why do we use it?", answer:"Shared behavior between multiple objects. This helps with organization and flexibility to not repeat your self.", correct: false)
 
 #Ruby
-Question.create( question:"Ruby - What is a Ruby object?", answer:"An object is an instance of a class and has state and behavior.", correct: false)
+Question.create( question:"Ruby - What is a Ruby object?", answer:"A ruby object is an instance of a class and has state and behavior.", correct: false)
 Question.create( question:"Ruby - What are class variables?", answer:"Created with the prefix @@ and are shared by all objects in a class.", correct: false)
 Question.create( question:"Ruby - What are instance variables?", answer:"Created with the prefix @ and belong to a single object within a class.", correct: false)
 
@@ -40,4 +40,4 @@ Question.create( question:"What is behavior?", answer:"What an object does. For 
 Question.create( question:"What's MVC?", answer:"Model, View, Controller is used as an architectural pattern for implementing user interfaces.", correct: false)
 Question.create( question:"What is a Model?", answer:"A model stores data that is retrieved by the controller and displayed in the view.", correct: false)
 Question.create( question:"What is a View?", answer:"A view requests information from the model that it uses to generate an output representation to the user.", correct: false)
-Question.create( question:"What is a Controller?", answer:"A controller can send commands to the model to update the model's state. It can also send commands to its associated view to change the view's presentation of the model.", correct: false)
+Question.create( question:"What is a Controller?", answer:"A controller can send commands to the model to update the model's state. It can also send commands to it's associated view to change the view's presentation of the model.", correct: false)
