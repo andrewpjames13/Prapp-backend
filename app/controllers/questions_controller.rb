@@ -1,5 +1,8 @@
 class QuestionsController < ApplicationController
+  before_action :authenticate
+
   skip_before_filter  :verify_authenticity_token
+
   def index
     @questions = Question.all
     render json: { questions: @questions }.to_json
