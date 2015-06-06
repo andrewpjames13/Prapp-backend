@@ -1,5 +1,5 @@
 class QuestionsController < ApplicationController
-  # before_action :authenticate
+  before_action :authenticate, :except => [:show]
 
   skip_before_filter  :verify_authenticity_token
 
