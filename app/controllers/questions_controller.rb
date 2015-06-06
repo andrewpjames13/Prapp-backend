@@ -10,17 +10,20 @@ class QuestionsController < ApplicationController
     render json: @question.to_json
   end
 
+  def edit
+    @question = Question.find(params[:id])
+  end
+
   def update
     @question = Question.find(params[:id])
-    # binding.pry
     @question.update(question_params)
-    render json: @question.to_json
+    redirect_to root_path
   end
 
   private
 
   def question_params
-    params.require(:question).permit(:correct)
+    params.require(:question).permit(:correct, :question, :answer)
   end
 
 end

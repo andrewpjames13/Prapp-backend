@@ -2,9 +2,7 @@
   <h2>Golden Questions</h2>
   <div id="content" class="black">
     <% @questions.each do |question| %>
-      <%= link_to "#{question.question}", edit_question_path(question) %><br>
+      <p class="q-margin"><%= link_to "#{question.question}", edit_question_path(question) %></p>
     <% end %>
   </div>
-
-</div>
 </div>

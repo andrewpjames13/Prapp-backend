@@ -1,0 +1,13 @@
+<div class="col-5-5">
+  <h2><%= @question.question %></h2>
+  <div id="content" class="black">
+    <p><%= @question.answer %></p>
+  <%= form_for @question do |f| %>
+      <%= f.text_field :question %><br>
+      <%= f.text_field :answer %><br>
+      <%= f.text_field :correct %><br>
+      <%= f.submit %>
+  <% end %>
+  </div>
+
+</div>

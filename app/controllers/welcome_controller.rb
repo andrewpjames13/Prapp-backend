@@ -4,8 +4,4 @@ class WelcomeController < ApplicationController
     @questions = Question.all
   end
 
-  def update
-    @question = Question.find(params[:id])
-  end
-
 end
