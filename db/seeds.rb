@@ -14,8 +14,8 @@ Question.create( question:"JavaScript - What does bind() do?", answer:"It is a m
 
 #HTTP
 Question.create( question:"Give four examples of an HTTP method/verb?", answer:"GET, POST, DELETE, PUT, and PATCH.", correct: false)
-Question.create( question:"What is the difference between PUT an PATCH?", answer:"PUT updates the entire object and PATCH only updates part of an object.", correct: false)
-Question.create( question:"What are RESTful API's?", answer:"RESTful API's retrieve web pages and send data to remote servers by web browsers. Using HTTP verbs, base URI, and internet media type such as JSON.", correct: false)
+Question.create( question:"What is the difference between PUT and PATCH?", answer:"PUT updates the entire object and PATCH only updates part of an object.", correct: false)
+Question.create( question:"What are RESTful APIs?", answer:"RESTful APIs retrieve web pages and send data to remote servers by web browsers. Using HTTP verbs, base URI, and internet media type such as JSON.", correct: false)
 
 #CSS
 
@@ -24,7 +24,7 @@ Question.create( question:"What are RESTful API's?", answer:"RESTful API's retri
 Question.create( question:"What is OOP?", answer:"Object oriented programming is a language model organized around objects rather than “actions” and data rather than logic.", correct: false)
 Question.create( question:"What are the four pillars of OOP?", answer:"Abstraction, Encapsulation, Inheritance and Polymorphism.", correct: false)
 Question.create( question:"What is Abstraction and why use it?", answer:"Process of exposing essential features of a entity by hiding other irrelevant details. This reduces complexity and increases efficiency.", correct: false)
-Question.create( question:"What is Encapsulation and why use it?", answer:"The packing of data and functions into a single component. This helps to not overloading the user with data and functions.", correct: false)
+Question.create( question:"What is Encapsulation and why use it?", answer:"The packing of data and functions into a single component. This helps to not overload the user with data and functions.", correct: false)
 Question.create( question:"What is Inheritance and why use it?", answer:"A parent/child relation between two classes. A child class inherits all the features of its parent class. Methods from the parent can be overridden in the child.", correct: false)
 Question.create( question:"What is Polymorphism and why do we use it?", answer:"Shared behavior between multiple objects. This helps with organization and flexibility to not repeat your self.", correct: false)
 
