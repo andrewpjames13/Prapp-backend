@@ -1,3 +1,10 @@
-<% @questions.each do |question| %>
-  <%= link_to "#{question.question}", edit_question_path(question) %><br>
-<% end %>
+<div class="col-5-5">
+  <h2>Golden Questions</h2>
+  <div id="content" class="black">
+    <% @questions.each do |question| %>
+      <%= link_to "#{question.question}", edit_question_path(question) %><br>
+    <% end %>
+  </div>
+
+</div>
+</div>

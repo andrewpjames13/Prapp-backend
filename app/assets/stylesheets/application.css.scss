@@ -34,3 +34,7 @@ a:visited{
   color: $gold;
   text-decoration: none;
 }
+
+a:visited:hover{
+  color: $white;
+}
