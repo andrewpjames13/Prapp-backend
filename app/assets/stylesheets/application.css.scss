@@ -10,6 +10,27 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
+
  */
+ *, *:before, *:after {
+   box-sizing: border-box;
+ }
+
+ @import "reset";
+ @import "color";
+ @import "type";
+ @import "layout";
+
+a{
+  color: $gold;
+  text-decoration: none;
+}
+
+a:hover{
+  color: $white;
+}
+
+a:visited{
+  color: $gold;
+  text-decoration: none;
+}

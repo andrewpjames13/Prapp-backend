@@ -1,14 +1,16 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <title>PrappBack</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <title>Golden</title>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <link rel="icon" href="images/favicon-golden.png" type="image/x-icon"/>
 
+    <script src="https://fb.me/react-with-addons-0.13.3.js"></script>
+    <script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  </head>
+  <body>
 <%= yield %>
 
-</body>
+
+  </body>
 </html>
